@@ -18,7 +18,7 @@ func main() {
 	/*
 	I don't quite understand source code of aranging capacity :(
 	But! Append works like so if there is a space in underlying
-	array so it just puts value on the len's position (len <= cap)
+	array so it returns a new slice with the same cap
 
 	Otherwise it creats new array of capacity comparibly bigger
 	based on number of values to be inserted and easier bit
