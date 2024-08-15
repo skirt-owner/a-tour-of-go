@@ -1,6 +1,6 @@
 package main
 
-import "github.com/skirt-owner/a-tour-of-go/src/a-tour-of-go/exercises/slices/pic"
+import "golang.org/x/tour/pic"
 
 func Pic(dx, dy int) [][]uint8 {
 	picture := make([][]uint8, dy)
